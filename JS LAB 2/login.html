@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+     <div class="header">
+
+        <div class="header-left">
+            <ul class="header-links">
+                <li><a href="index.html" style="color: blue;">LA PERLA Developers</a></li>
+                <li><a href="Buildings.html" target="_self">The Building</a></li>
+                <li><a href="login.html" target="_blank">Log in</a></li>
+
+            </ul>
+        </div>
+
+        <div class="header-center">
+            <div class="title">
+                <h1 id="demo">LP/52</h1>
+            </div>
+        </div>
+
+        <div class="header-right">
+            <button>Inquire</button>
+            <a href="#"><img src="images/instagram.png" alt=""></a>
+            <a href="#"><img src="images/facebook.png" alt=""></a>
+            <a href="#"><img src="images/youtube.png" alt=""></a>
+        </div>
+
+    </div>
+    
+    <form action="">
+        <div class="form-container">
+        <h1 style="text-align: center;">Welcome back</h1>
+        <br>
+        <h4 style="text-align: center;">Sign in to your account to continue</h4>
+
+        <br>
+
+        <label for="">Email Address</label>
+        <br>
+        <input type="text" placeholder="example@email.com" required pattern=".*[@].*[.com]" >
+        <br><br>
+        <label for="">Password</label> 
+        
+        <br>
+        <input type="password" placeholder="Include special characters: ( @#%$!. )" required pattern=".*[@#%$!.].*" >
+        <br><br>
+        <div style="display: flex;">
+            <input type="checkbox" id="remember-me" style="width: 20px;">
+            <label for="remember-me" style="width: 90%;">Remember me</label >
+        </div>
+        <br>   
+
+        <button type="submit" style="width: 100%; padding: 3px; font-size: 20px; cursor: pointer; border-radius: 3px; background: #523508; color: white;" id="login">Log in</button>
+
+        <br><br>
+        
+        <p>Don't have an account? <a href="signup.html">Sign up</a></p>
+        <p>By signing in, you agree to our <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.</p>
+        </div>
+    </form>
+
+<script src="login.js"></script>
+</body>
+</html>
